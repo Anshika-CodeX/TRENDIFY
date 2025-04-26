@@ -7,7 +7,7 @@ const products = [
         image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEs6ww_eYknZYwqKFjCep8dSRX7uq2_SRfsw&s',
         category: 'tshirts',
         inDemand: true,
-        soldCount: 120,
+        stock: 120,
         bestSeller: true,
         description: 'Premium cotton crewneck t-shirt with a relaxed fit. This essential tee features a clean design with minimal branding for versatile everyday wear.',
         details: {
@@ -28,7 +28,7 @@ const products = [
       image: 'https://d118ps6mg0w7om.cloudfront.net/media/catalog/product/s/s/fit-in/1000x1333/ss-24_4000x5000-04-10-24_mft-29540-s-170-mid-blue_1_mft-29540-s-170-mid-blue.jpg',
       category: 'jeans',
       inDemand: true,
-      soldCount: 85,
+      stock: 85,
       bestSeller: false,
       description: 'Premium slim fit jeans crafted from high-quality stretch denim. These versatile jeans feature a modern silhouette with a comfortable mid-rise waist and tapered leg for a sleek, contemporary look that pairs well with any outfit.',
       details: {
@@ -49,7 +49,7 @@ const products = [
       image: 'https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/29768136/2024/5/27/737818f9-2e64-404f-b18b-3795362bf6a21716789812680IDMenColourblockedLeatherSneakers1.jpg',
       category: 'sneakers',
       inDemand: true,
-      soldCount: 65,
+      stock: 65,
       bestSeller: true,
       description: 'Iconic minimalist leather sneakers handcrafted in Italy. These luxurious sneakers feature a clean, understated design with signature gold serial numbers stamped at the heel, premium leather lining, and durable rubber soles for everyday comfort and timeless style.',
       details: {
@@ -70,7 +70,7 @@ const products = [
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3r5z_OgtxGEI3YO8PE-vCmeUlLjUtScA0pA&s',
       category: 'sweaters',
       inDemand: false,
-      soldCount: 0,
+      stock: 100,
       bestSeller: false,
       description: 'Luxurious pure cashmere sweater with a relaxed silhouette. This premium knitwear piece features a crew neckline, ribbed trim details, and an ultra-soft hand feel that drapes beautifully for effortless sophistication and exceptional warmth.',
       details: {
@@ -91,7 +91,7 @@ const products = [
       image: 'https://www.converse.in/media/catalog/product/1/0/10026976-a02_3.jpg?auto=webp&format=pjpg&width=640&height=800&fit=cover',
       category: 'jackets',
       inDemand: true,
-      soldCount: 110,
+      stock: 110,
       bestSeller: true,
       description: 'Iconic MA-1 bomber jacket with authentic military heritage. This classic flight jacket features a reversible design, ribbed collar, cuffs and hem, multiple utility pockets, and the signature arm zip pocket with "Remove Before Flight" tag for authentic aviator style.',
       details: {
@@ -112,7 +112,7 @@ const products = [
       image: 'https://m.media-amazon.com/images/I/519SGd0981L._AC_UY1100_.jpg',
       category: 'pants',
       inDemand: false,
-      soldCount: 0,
+      stock: 29,
       bestSeller: false,
       description: 'Refined chino pants crafted from premium stretch cotton twill. These versatile trousers feature a clean, tailored silhouette with a comfortable mid-rise waist, slash front pockets, buttoned back welt pockets, and a modern slim fit through the leg.',
       details: {
@@ -133,7 +133,7 @@ const products = [
       image: 'https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/724855s.jpg?im=Resize,width=750',
       category: 'shirts',
       inDemand: false,
-      soldCount: 0,
+      stock: 56,
       bestSeller: true,
       description: 'Classic Oxford cloth button-down shirt made in the USA with traditional craftsmanship. This timeless piece features a comfortable regular fit, single-needle stitching, chalk buttons, box pleat, and locker loop for authentic heritage style that improves with age.',
       details: {
@@ -154,7 +154,7 @@ const products = [
       image: 'https://www.thebeachcompany.in/cdn/shop/files/tuc141943483-Navy_R_Z001A_1024x.webp?v=1684492650',
       category: 'shorts',
       inDemand: true,
-      soldCount: 75,
+      stock: 75,
       bestSeller: false,
       description: 'Premium tailored swim shorts inspired by traditional menswear. These sophisticated swim trunks feature a tailored fit with side adjusters, quick-drying fabric, mesh lining, and a snap closure with zip fly for a refined beach-to-bar versatility.',
       details: {
@@ -175,7 +175,7 @@ const products = [
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTziyOffZuEspLgn3I3g8AP15FLfV73w-r5Og&s',
       category: 'belts',
       inDemand: false,
-      soldCount: 0,
+      stock: 98,
       bestSeller: false,
       description: 'Luxurious Italian leather belt with the iconic Gancini buckle. This sophisticated accessory features premium calfskin leather construction, hand-finished edges, and the signature double Gancini hardware in polished palladium for timeless elegance.',
       details: {
@@ -196,7 +196,7 @@ const products = [
       image: 'https://optorium.in/cdn/shop/files/police_SPLE04K_0300_Sunglass_01_91be5ee2-fb83-4310-92b5-9b54643c01fc.jpg?v=1740750443&width=2048',
       category: 'sunglasses',
       inDemand: true,
-      soldCount: 95,
+      stock: 95,
       bestSeller: true,
       description: 'Iconic aviator sunglasses with a timeless teardrop shape. These classic shades feature a lightweight metal frame, adjustable nose pads, crystal lenses with UV protection, and signature bayonet temples for a secure, comfortable fit and enduring style.',
       details: {
@@ -217,7 +217,7 @@ const products = [
       image: 'https://m.media-amazon.com/images/I/81WIcyHQ7oL._AC_UY1100_.jpg',
       category: 'accessories',
       inDemand: false,
-      soldCount: 0,
+      stock: 60,
       bestSeller: false,
       description: 'Minimalist bifold wallet crafted from premium Italian leather. This sophisticated accessory features the brand\'s signature stitch detail, multiple card slots, bill compartments, and a sleek silhouette that fits comfortably in pocket while maintaining a refined aesthetic.',
       details: {
@@ -237,7 +237,7 @@ const products = [
       image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2aOm8O33mMbuFnyDggPgr0oW7gfpN8uNKAQ&s',
       category: 'boots',
       inDemand: true,
-      soldCount: 45,
+      stock: 45,
       bestSeller: true,
       description: 'Luxurious Chelsea boots crafted in Italy from premium suede. These sophisticated boots feature elastic side panels, a sleek almond toe, leather lining, stacked heel, and pull tab for easy on/off wear, offering timeless elegance with modern edge.',
       details: {
@@ -258,7 +258,7 @@ const products = [
   image: 'https://bhumi.com.au/cdn/shop/files/ProductPageImage2_NEW_2.jpg?v=1722999663',
   category: 'tshirts',
   inDemand: false,
-  soldCount: 88,
+  stock: 88,
   bestSeller: false,
   description: 'Sustainable everyday t-shirt made from 100% organic cotton. This essential tee features a classic crew neckline, short sleeves, and a regular fit with just the right amount of room through the body for comfort without excess fabric.',
   details: {
@@ -279,7 +279,7 @@ const products = [
   image: 'https://assets.ajio.com/medias/sys_master/root/20230706/XPdB/64a6f249eebac147fc5a69b6/-1117Wx1400H-465975073-black-MODEL.jpg',
   category: 'tshirts',
   inDemand: true,
-  soldCount: 112,
+  stock: 112,
   bestSeller: true,
   description: 'Statement graphic t-shirt featuring the brand\'s signature diagonal stripe motif. This luxury streetwear piece is crafted from premium cotton with an oversized fit, dropped shoulders, and bold screen-printed design for an authentic contemporary aesthetic.',
   details: {
@@ -300,7 +300,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPDHMYWQcbtWfdlbRc-st1kRrOQdlUspe2pQ&s',
   category: 'tshirts',
   inDemand: false,
-  soldCount: 0,
+  stock: 90,
   bestSeller: false,
   description: 'Classic Breton-inspired striped t-shirt made from premium cotton jersey. This timeless piece features a clean crew neckline, short sleeves, and the perfect slim fit with horizontal stripes for effortless Parisian style.',
   details: {
@@ -321,7 +321,7 @@ const products = [
   image: 'https://images.bestsellerclothing.in/data/JJ/15-july-2024/900771501_g0%20.jpg?width=1080&height=1355&mode=fill&fill=blur&format=auto',
   category: 'tshirts',
   inDemand: true,
-  soldCount: 65,
+  stock: 65,
   bestSeller: false,
   description: 'Durable workwear-inspired t-shirt with signature chest pocket detail. This everyday essential features heavyweight cotton construction, a classic crew neckline, reinforced seams, and the brand\'s discreet square label for authentic utilitarian style.',
   details: {
@@ -342,7 +342,7 @@ const products = [
   image: 'https://bananaclub.co.in/cdn/shop/files/MinimalistPrintBrownTshirt_6.jpg?v=1738820026',
   category: 'tshirts',
   inDemand: true,
-  soldCount: 78,
+  stock: 78,
   bestSeller: true,
   description: 'Luxury statement t-shirt with bold logo print. This high-fashion piece features an intentionally oversized silhouette, dropped shoulders, heavyweight cotton construction, and the brand\'s iconic logo emblazoned across the chest for unmistakable designer appeal.',
   details: {
@@ -363,7 +363,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/71InQyE-w8L._AC_UY1100_.jpg',
   category: 'tshirts',
   inDemand: false,
-  soldCount: 0,
+  stock: 90,
   bestSeller: false,
   description: 'Perfectly worn-in t-shirt with vintage-inspired wash treatment. This effortlessly cool tee features a scoop neckline, slim fit through the body, raw-edge details, and a specialized garment dyeing process that creates a unique, lived-in appearance.',
   details: {
@@ -384,7 +384,7 @@ const products = [
   image: 'https://tommy-europe.scene7.com/is/image/TommyEurope/MW0MW35457_YBR_main?$b2c_updp_m_mainImage_1920$',
   category: 'tshirts',
   inDemand: true,
-  soldCount: 55,
+  stock: 55,
   bestSeller: false,
   description: 'Refined t-shirt featuring the brand\'s signature fox embroidery. This Parisian-designed piece is crafted from premium cotton with a classic crew neckline, straight hem, and meticulous embroidery detail for a subtle yet distinctive touch of sophistication.',
   details: {
@@ -405,7 +405,7 @@ const products = [
   image: 'https://www.bonkerscorner.com/cdn/shop/files/khaki-heavyweight-oversized-t-shirt-xs-bonkerscorner-store-33688532189284.jpg?v=1728982636',
   category: 'tshirts',
   inDemand: false,
-  soldCount: 0,
+  stock: 60,
   bestSeller: false,
   description: 'Premium heavyweight t-shirt with Scandinavian minimalist design. This luxury basic features dense cotton construction, a ribbed crew neckline, straight hem, and the brand\'s signature face patch discreetly placed at the hem for understated contemporary style.',
   details: {
@@ -426,7 +426,7 @@ const products = [
   image: 'https://xcdn.next.co.uk/common/items/default/default/itemimages/3_4Ratio/product/lge/180221s.jpg?im=Resize,width=750',
   category: 'tshirts',
   inDemand: true,
-  soldCount: 42,
+  stock: 42,
   bestSeller: false,
   description: 'Refined essential t-shirt crafted from premium pima cotton. This elevated basic features a clean crew neckline, short sleeves, and a tailored slim fit that flatters the body while maintaining comfort for versatile everyday wear.',
   details: {
@@ -447,7 +447,7 @@ const products = [
   image: 'https://images-cdn.ubuy.co.in/6692018b15a63e122b3ba3c0-graphic-t-shirts-for-men-vintage.jpg',
   category: 'tshirts',
   inDemand: true,
-  soldCount: 68,
+  stock: 68,
   bestSeller: true,
   description: 'Luxury rock-inspired t-shirt with artisanal distressing details. This high-end piece features intentional rips, tears, and paint splatters, along with vintage-inspired graphic prints, for an authentic worn-in aesthetic that embodies the brand\'s rebellious California spirit.',
   details: {
@@ -470,7 +470,7 @@ const products = [
   image: 'https://ramrajcotton.in/cdn/shop/files/240524_ramraj0376.jpg?v=1743659622',
   category: 'shirts',
   inDemand: true,
-  soldCount: 72,
+  stock: 72,
   bestSeller: false,
   description: 'Refined linen shirt perfect for warm-weather occasions. This lightweight button-down features a tailored fit, mother-of-pearl buttons, a spread collar, and single-button cuffs for a sophisticated yet relaxed look that transitions seamlessly from beach to dinner.',
   details: {
@@ -491,7 +491,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9s0i_aWO99rCEWprWrCpi6sk6qfxLhbSl_Q&s',
   category: 'shirts',
   inDemand: false,
-  soldCount: 0,
+  stock: 0,
   bestSeller: false,
   description: 'Rugged brushed cotton flannel shirt with heritage-inspired check pattern. This durable workwear piece features a button-down collar, chest pockets with button flaps, adjustable cuffs, and a relaxed fit for comfort during outdoor activities and everyday wear.',
   details: {
@@ -512,7 +512,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqs0WAs9RDStysZS_j4bL5lP2fSornoj53VA&s',
   category: 'shirts',
   inDemand: true,
-  soldCount: 58,
+  stock: 58,
   bestSeller: false,
   description: 'Classic Western-inspired denim shirt with authentic details. This iconic piece features pearl snap buttons, pointed yoke, flap chest pockets, and a slightly washed denim fabric that offers both comfort and timeless Americana style.',
   details: {
@@ -533,7 +533,7 @@ const products = [
   image: 'https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-214692_alternate10?$rl_4x5_pdp$',
   category: 'shirts',
   inDemand: true,
-  soldCount: 45,
+  stock: 45,
   bestSeller: true,
   description: 'Timeless striped oxford cloth button-down shirt with heritage craftsmanship. This preppy essential features a classic button-down collar, box pleat, locker loop, and the perfect roll at the collar for an authentic American look that works for both business and casual occasions.',
   details: {
@@ -554,7 +554,7 @@ const products = [
   image: 'https://thehouseofrare.com/cdn/shop/files/SALFORDOFFWHITE00390HERO_9b24b352-2b3c-4d89-9fc1-5f3870d11148.jpg?v=1743585235',
   category: 'shirts',
   inDemand: true,
-  soldCount: 92,
+  stock: 92,
   bestSeller: true,
   description: 'Sophisticated resort-inspired shirt with an open Cuban collar. This refined warm-weather piece features a relaxed camp collar, straight hem, short sleeves, and lightweight fabric for a polished yet laid-back look perfect for summer evenings.',
   details: {
@@ -575,7 +575,7 @@ const products = [
   image: 'https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1341016_lifestyle?$rl_4x5_pdp$',
   category: 'shirts',
   inDemand: false,
-  soldCount: 0,
+  stock: 60,
   bestSeller: false,
   description: 'Vintage-inspired chambray work shirt with authentic heritage details. This rugged piece features selvedge chambray fabric, triple-needle stitching, cat-eye buttons, reinforced elbow patches, and a perfectly worn-in wash for timeless workwear style.',
   details: {
@@ -596,7 +596,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSitZzxGtA6XxryC-NG2yjmZNkgLfYX08edkA&s',
   category: 'shirts',
   inDemand: true,
-  soldCount: 63,
+  stock: 63,
   bestSeller: false,
   description: 'Contemporary vacation-ready shirt with unique print design. This laid-back piece features a camp collar, relaxed fit, straight hem, and custom-designed pattern printed on lightweight fabric for effortless summer style with urban sensibility.',
   details: {
@@ -617,7 +617,7 @@ const products = [
   image: 'https://assets.ajio.com/medias/sys_master/root/20231208/YPQm/65732893ddf7791519bc21fa/-473Wx593H-410385572-100-MODEL.jpg',
   category: 'shirts',
   inDemand: false,
-  soldCount: 0,
+  stock: 70,
   bestSeller: false,
   description: 'Refined business shirt with European tailoring. This sophisticated dress shirt features a spread collar, French cuffs, mother-of-pearl buttons, and a slim fit through the body for a sharp, contemporary silhouette perfect for professional settings.',
   details: {
@@ -638,7 +638,7 @@ const products = [
   image: 'https://www.andamen.com/cdn/shop/products/01_4edbb66e-b5bd-497f-976e-5ddf5bf20c50.jpg?v=1743151017',
   category: 'shirts',
   inDemand: true,
-  soldCount: 38,
+  stock: 38,
   bestSeller: false,
   description: 'Versatile corduroy overshirt that works as both a shirt and light jacket. This transitional piece features a soft wale corduroy fabric, button front, chest pockets, and a relaxed fit for easy layering and European-inspired casual style.',
   details: {
@@ -659,7 +659,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQttLkcZorGMkavz2HiaHCWypHcN2dBB3WAiw&s',
   category: 'shirts',
   inDemand: true,
-  soldCount: 25,
+  stock: 25,
   bestSeller: true,
   description: 'Luxurious Italian-made shirt crafted from silk and cotton blend. This exceptional piece features hand-finished details, mother-of-pearl buttons, a spread collar, and impeccable tailoring for unparalleled elegance and comfort for formal occasions.',
   details: {
@@ -682,7 +682,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/512fteLlqYL._AC_UY1100_.jpg',
   category: 'tanks',
   inDemand: true,
-  soldCount: 48,
+  stock: 48,
   bestSeller: false,
   description: 'Luxury everyday tank top crafted from supima cotton jersey. This refined essential features a clean scoop neckline, bound edges, and a slim fit through the body for a polished yet casual look with exceptional comfort and durability.',
   details: {
@@ -703,7 +703,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/71us8G-JzHS._AC_UY1100_.jpg',
   category: 'tanks',
   inDemand: true,
-  soldCount: 82,
+  stock: 82,
   bestSeller: true,
   description: 'Classic ribbed tank top with iconic branding. This versatile piece features a ribbed texture for enhanced fit, a square-cut neckline, the brand\'s signature waistband, and a body-hugging silhouette perfect for layering or wearing alone.',
   details: {
@@ -724,7 +724,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/71BBA7rfsyL._AC_UY1100_.jpg',
   category: 'tanks',
   inDemand: false,
-  soldCount: 0,
+  stock: 80,
   bestSeller: false,
   description: 'Technical training tank designed for high-intensity workouts. This performance piece features quick-drying, four-way stretch fabric, strategic mesh panels for ventilation, flat seams to prevent chafing, and reflective details for visibility during low-light activities.',
   details: {
@@ -745,7 +745,7 @@ const products = [
   image: 'https://cdn12.nnnow.com/web-images/large/styles/LYD4IEWHFY1/1708325953807/1.jpg',
   category: 'tanks',
   inDemand: true,
-  soldCount: 35,
+  stock: 35,
   bestSeller: false,
   description: 'Bold statement tank with edgy graphic print. This urban-inspired piece features a distressed logo design, raw-edge armholes, a slightly longer length, and a relaxed fit for an authentic streetwear aesthetic with attitude.',
   details: {
@@ -766,7 +766,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/71C8VMJHgkL._AC_UY1100_.jpg',
   category: 'tanks',
   inDemand: true,
-  soldCount: 95,
+  stock: 95,
   bestSeller: true,
   description: 'Athletic tank designed to showcase physique during workouts. This performance piece features moisture-wicking fabric, four-way stretch construction, anti-odor technology, and a fitted cut that highlights muscle definition while allowing full range of motion.',
   details: {
@@ -787,7 +787,7 @@ const products = [
   image: 'https://images.meesho.com/images/products/159657872/xy0fd_512.webp',
   category: 'tanks',
   inDemand: false,
-  soldCount: 0,
+  stock: 90,
   bestSeller: false,
   description: 'Premium tank crafted from textured slub cotton. This elevated basic features a unique fabric with subtle texture variation, a curved hem, reinforced seams, and a relaxed fit through the body for contemporary casual style with attention to detail.',
   details: {
@@ -808,7 +808,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0lGvf8endVrpXd042O3SYJfXHbaSWDXuFAQ&s',
   category: 'tanks',
   inDemand: true,
-  soldCount: 72,
+  stock: 72,
   bestSeller: false,
   description: 'Contemporary tank with extended length for modern layering. This streetwear-inspired piece features a scoop neckline, dropped armholes, raw edges, and an elongated silhouette for an on-trend look that works well with the brand\'s aesthetic.',
   details: {
@@ -829,7 +829,7 @@ const products = [
   image: 'https://www.gymbrothers.in/cdn/shop/products/nodaysoffstriped_750x.jpg?v=1638699719',
   category: 'tanks',
   inDemand: false,
-  soldCount: 0,
+  stock: 50,
   bestSeller: false,
   description: 'Classic Breton-inspired striped tank made from fine cotton. This refined casual piece features horizontal navy and white stripes, a clean crew neckline, and a regular fit for timeless summer style with British heritage quality.',
   details: {
@@ -850,7 +850,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/61-b-GQ-cFL._AC_UY1100_.jpg',
   category: 'tanks',
   inDemand: true,
-  soldCount: 58,
+  stock: 58,
   bestSeller: false,
   description: 'Technical racerback tank designed for high-performance training. This athletic piece features Dri-FIT technology to wick away sweat, strategic mesh panels for ventilation, a racerback design for unrestricted movement, and reflective details for visibility.',
   details: {
@@ -871,7 +871,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8JUr5oyRmZj0xDlYnkyi0phda2UXgyM2AxA&s',
   category: 'tanks',
   inDemand: true,
-  soldCount: 120,
+  stock: 120,
   bestSeller: true,
   description: 'Essential tank top made from premium Supima cotton. This versatile basic features a ribbed crew neckline, clean finish on armholes, and a comfortable regular fit that maintains its shape wash after wash for reliable everyday wear.',
   details: {
@@ -894,7 +894,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxN4h_yEstSEL8lGzJPbigIrUGSab6d61S8A&s',
   category: 'sweaters',
   inDemand: true,
-  soldCount: 28,
+  stock: 28,
   bestSeller: true,
   description: 'Exquisite crewneck sweater crafted from the finest merino wool. This luxurious knitwear piece features a refined silhouette, ribbed collar, cuffs and hem, and incomparable softness with natural temperature regulation for year-round comfort and elegance.',
   details: {
@@ -915,7 +915,7 @@ const products = [
   image: 'https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1355998_alternate4?$rl_4x5_pdp$',
   category: 'sweaters',
   inDemand: true,
-  soldCount: 45,
+  stock: 45,
   bestSeller: false,
   description: 'Classic cable knit sweater with timeless design. This heritage-inspired piece features intricate cable patterns throughout, a ribbed crew neckline, cuffs, and hem, and is crafted from substantial cotton for a traditional look with modern comfort.',
   details: {
@@ -936,7 +936,7 @@ const products = [
   image: 'https://content.woolovers.com/img/747x856/17474_q11m_greymarl_m_13.jpg',
   category: 'sweaters',
   inDemand: false,
-  soldCount: 0,
+  stock: 30,
   bestSeller: false,
   description: 'Sumptuous Italian-made cashmere sweater with V-neckline. This exceptional luxury piece features the world\'s finest cashmere with subtle micro-sequin detailing at the shoulders, ribbed trim, and impeccable craftsmanship for unparalleled softness and sophisticated style.',
   details: {
@@ -957,7 +957,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-4RC8sDxSsgmH5urTLNTP9tK9gQpC2jOv3w&s',
   category: 'sweaters',
   inDemand: true,
-  soldCount: 32,
+  stock: 32,
   bestSeller: false,
   description: 'Scottish-made turtleneck sweater with heritage craftsmanship. This cozy piece features a substantial fold-over turtleneck, textured knit pattern, ribbed cuffs and hem, and is made from premium lambswool for exceptional warmth and authentic character.',
   details: {
@@ -978,7 +978,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIKAQzBK8f6bOSB6kex2T90Wl2MM-WnG7AFw&s',
   category: 'sweaters',
   inDemand: true,
-  soldCount: 18,
+  stock: 18,
   bestSeller: false,
   description: 'Sophisticated shawl collar cardigan crafted from alpaca blend yarn. This refined knitwear piece features a substantial shawl collar, horn buttons, patch pockets, and a relaxed silhouette for effortless Parisian style with exceptional warmth and comfort.',
   details: {
@@ -999,7 +999,7 @@ const products = [
   image: 'https://shop.mango.com/assets/rcs/pics/static/T8/fotos/S/87000612_33.jpg?imwidth=2048&imdensity=1&ts=1728052467136',
   category: 'sweaters',
   inDemand: false,
-  soldCount: 0,
+  stock: 70,
   bestSeller: false,
   description: 'Technical ribbed wool sweater with signature detailing. This performance-inspired piece features a chunky ribbed knit, crew neckline, the brand\'s iconic removable compass patch on the sleeve, and is crafted from treated wool for enhanced durability and weather resistance.',
   details: {
@@ -1020,7 +1020,7 @@ const products = [
   image: 'https://img.tatacliq.com/images/i14/437Wx649H/MP000000019936587_437Wx649H_202311031659091.jpeg',
   category: 'sweaters',
   inDemand: true,
-  soldCount: 52,
+  stock: 52,
   bestSeller: false,
   description: 'Refined lightweight sweater for transitional seasons. This versatile piece features a fine gauge cotton knit, clean crew neckline, ribbed trim details, and a slim fit for a minimalist Parisian aesthetic that works year-round in various climates.',
   details: {
@@ -1041,7 +1041,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROfwD65owLwua3zwGtosg1lGGMhOwF87r7jQ&s',
   category: 'sweaters',
   inDemand: true,
-  soldCount: 15,
+  stock: 15,
   bestSeller: true,
   description: 'Statement intarsia knit sweater with iconic motifs. This luxury piece features the brand\'s signature symbols and patterns knitted directly into the fabric using the traditional intarsia technique, a crew neckline, and ribbed trim for a bold designer statement.',
   details: {
@@ -1062,7 +1062,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRICoR7AaOm08-mtnWH1rPAYyfmE0eTcv-qzA&s',
   category: 'sweaters',
   inDemand: false,
-  soldCount: 0,
+  stock: 70,
   bestSeller: false,
   description: 'Textural mohair blend sweater with contemporary design. This fashion-forward piece features a fuzzy, brushed texture, oversized silhouette, dropped shoulders, ribbed trim, and the brand\'s minimalist aesthetic for a modern Scandinavian interpretation of luxury knitwear.',
   details: {
@@ -1083,7 +1083,7 @@ const products = [
   image: 'https://cdn-images.farfetch-contents.com/27/29/91/30/27299130_57074045_600.jpg',
   category: 'sweaters',
   inDemand: true,
-  soldCount: 22,
+  stock: 22,
   bestSeller: false,
   description: 'Technical waffle knit pullover with performance features. This luxury sportswear piece features a textured waffle knit pattern, half-zip design with logo pull, ribbed trim, and the brand\'s signature logo patch for a sophisticated alpine-inspired aesthetic.',
   details: {
@@ -1106,7 +1106,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_nSuFiZ0QEJVD4An-9xeSKYtugu4u2cQCIQ&s',
   category: 'sweatshirts',
   inDemand: true,
-  soldCount: 125,
+  stock: 125,
   bestSeller: true,
   description: 'Iconic box logo hoodie with cult streetwear status. This coveted piece features heavyweight cotton construction, a kangaroo pocket, adjustable drawstring hood, ribbed cuffs and hem, and the brand\'s signature embroidered box logo on the chest.',
   details: {
@@ -1127,7 +1127,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5JQjROhKz5o5fvY_cNEVyja2ExUnFRGlgwQ&s',
   category: 'sweatshirts',
   inDemand: true,
-  soldCount: 88,
+  stock: 88,
   bestSeller: false,
   description: 'Heritage-inspired sweatshirt with authentic vintage wash. This classic piece features reverse weave cotton construction, ribbed side panels, a V-insert at the neckline, ribbed cuffs and hem, and the brand\'s iconic C logo embroidered on the chest and sleeve.',
   details: {
@@ -1148,7 +1148,7 @@ const products = [
   image: 'https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/2024/OCTOBER/28/76Ne2GHp_1c7052a650e6404c85431c506a6d4298.jpg',
   category: 'sweatshirts',
   inDemand: false,
-  soldCount: 0,
+  stock: 99,
   bestSeller: false,
   description: 'Premium midweight terry zip-up hoodie with meticulous craftsmanship. This Canadian-made piece features flatlock seams, reinforced side gussets, a two-way YKK zipper, jersey-lined hood, and raglan sleeves for superior comfort and durability.',
   details: {
@@ -1169,7 +1169,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/61kw3DP4SxL._AC_UY1100_.jpg',
   category: 'sweatshirts',
   inDemand: true,
-  soldCount: 42,
+  stock: 42,
   bestSeller: true,
   description: 'Avant-garde oversized hoodie with provocative graphic print. This high-fashion statement piece features an extremely oversized fit, dropped shoulders, extra-long sleeves, heavyweight cotton construction, and the brand\'s signature subversive graphics and text.',
   details: {
@@ -1190,7 +1190,7 @@ const products = [
   image: 'https://www.victoriassecret.in/on/demandware.static/-/Sites-vs_master_catalog/default/dwd6037aa1/large/1125431554A2_OF_F.jpg',
   category: 'sweatshirts',
   inDemand: true,
-  soldCount: 75,
+  stock: 75,
   bestSeller: false,
   description: 'Durable workwear-inspired crewneck sweatshirt with modern styling. This versatile piece features heavyweight cotton fleece construction, ribbed cuffs, collar and hem, a small logo patch at the hem, and a regular fit for authentic utilitarian style.',
   details: {
@@ -1211,7 +1211,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUmO4tWad4Te_D1b6Cd2QDT9Gd2ps76iJs0Q&s',
   category: 'sweatshirts',
   inDemand: false,
-  soldCount: 0,
+  soldCount: 70,
   bestSeller: false,
   description: 'Innovative tech fleece pullover designed for warmth without weight. This performance piece features Nike\'s signature tech fleece fabric, a funnel neck with adjustable drawcord, raglan sleeves, a kangaroo pocket, and tapered fit for modern athletic style.',
   details: {
@@ -1232,7 +1232,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7UD3o7CtMc_OUGgDpCDnKWGfh6KLItWC11Q&s',
   category: 'sweatshirts',
   inDemand: true,
-  soldCount: 18,
+  stock: 18,
   bestSeller: false,
   description: 'Sumptuous cashmere blend hoodie representing the height of luxury sportswear. This exceptional piece features a plush cashmere and silk blend fabric, a refined hood with tonal drawstrings, a full zip closure, ribbed cuffs and hem, and impeccable Italian craftsmanship.',
   details: {
@@ -1253,7 +1253,7 @@ const products = [
   image: 'https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/1769341/2017/3/1/11488372308471-FOREVER-21-Rust-Orange-Distressed-Sweatshirt-8601488372308254-2.jpg',
   category: 'sweatshirts',
   inDemand: true,
-  soldCount: 32,
+  stock: 32,
   bestSeller: false,
   description: 'Luxury grunge-inspired sweatshirt with artisanal distressing. This high-end piece features intentional rips, tears, and paint splatters, along with a vintage-inspired wash, for an authentic worn-in aesthetic that embodies the brand\'s rock and roll spirit.',
   details: {
@@ -1274,7 +1274,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkOMBzQHp8rWKnFBrHq7_JLsIELOil4r6f7A&s',
   category: 'sweatshirts',
   inDemand: true,
-  soldCount: 65,
+  stock: 65,
   bestSeller: true,
   description: 'Premium heavyweight hoodie with contemporary proportions. This luxury streetwear piece features dense cotton fleece construction, a double-layered hood, dropped shoulders, ribbed cuffs and hem, and an oversized fit for an elevated take on casual essentials.',
   details: {
@@ -1295,7 +1295,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRY2KPwqQYB7FHGqg4K-0hMEErNT0mGUhEFHg&s',
   category: 'sweatshirts',
   inDemand: true,
-  soldCount: 48,
+  stock: 48,
   bestSeller: false,
   description: 'Bold logo sweatshirt with Italian luxury streetwear aesthetic. This statement piece features the brand\'s signature gothic font logo printed across the chest, heavyweight cotton construction, a crew neckline, and relaxed fit for authentic street style with designer appeal.',
   details: {
@@ -1318,7 +1318,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWUr6rf0IfEFrNZpwU-spfCbMtSa4qnww9QA&s',
   category: 'jeans',
   inDemand: true,
-  soldCount: 62,
+  stock: 62,
   bestSeller: true,
   description: 'Iconic raw selvedge denim jeans with minimalist design. These cult-favorite jeans feature Japanese denim construction, a clean silhouette with no external branding, five-pocket styling, and signature selvedge outseam that develops a unique patina with wear.',
   details: {
@@ -1339,7 +1339,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRylDuU-z0DpcjoRAhMw70lgPv4hzBNyXpWYQ&s',
   category: 'jeans',
   inDemand: true,
-  soldCount: 45,
+  stock: 45,
   bestSeller: false,
   description: 'Luxury rock-inspired skinny jeans with artisanal distressing. These high-end jeans feature hand-finished rips and repairs, stretch denim for comfort, leather patch at back waist, and a skinny fit throughout for an authentic rock and roll aesthetic.',
   details: {
@@ -1360,7 +1360,7 @@ const products = [
   image: 'https://dtcralphlauren.scene7.com/is/image/PoloGSI/s7-1064514_lifestyle?$rl_4x5_pdp$',
   category: 'jeans',
   inDemand: false,
-  soldCount: 0,
+  stock: 50,
   bestSeller: false,
   description: 'Sustainable raw denim jeans with classic straight leg. These eco-conscious jeans feature organic cotton construction, signature orange stitching, leather patch at back waist, and a regular straight fit that will develop unique wear patterns over time.',
   details: {
@@ -1381,7 +1381,7 @@ const products = [
   image: 'https://pictures.kartmax.in/live/sites/aPfvUDpPwMn1ZadNKhP7/product-images/8907787958062/660/HLJN000878_1.jpg',
   category: 'jeans',
   inDemand: true,
-  soldCount: 38,
+  stock: 38,
   bestSeller: false,
   description: 'Contemporary tapered jeans with Scandinavian design sensibility. These modern jeans feature a comfortable mid-rise waist, regular fit through the thigh that narrows from the knee down, and minimal detailing for a clean, versatile aesthetic.',
   details: {
@@ -1402,7 +1402,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhCuo88B4_Zrc7RoXwyvucwDSPxT7ISW9qRg&s',
   category: 'jeans',
   inDemand: true,
-  soldCount: 85,
+  stock: 85,
   bestSeller: true,
   description: 'Authentic reproduction of classic 1950s jeans. These heritage-inspired jeans feature period-correct details like a higher rise, wider leg, selvedge denim from Cone Mills, two-horse leather patch, and vintage-inspired wash for timeless Americana style.',
   details: {
@@ -1423,7 +1423,7 @@ const products = [
   image: 'https://pantproject.com/cdn/shop/files/DSC6905.jpg?v=1744900836',
   category: 'jeans',
   inDemand: false,
-  soldCount: 0,
+  stock: 60,
   bestSeller: false,
   description: 'Luxurious slim fit jeans with rock and roll aesthetic. These high-end jeans feature premium stretch denim, a low rise waist, slim fit throughout the leg, and minimal branding for a sleek, edgy look that embodies the brand\'s rebellious spirit.',
   details: {
@@ -1444,7 +1444,7 @@ const products = [
   image: 'https://assets.ajio.com/medias/sys_master/root/20230613/98CW/64889a6a42f9e729d73f8247/-473Wx593H-466268646-navy-MODEL.jpg',
   category: 'jeans',
   inDemand: true,
-  soldCount: 52,
+  stock: 52,
   bestSeller: false,
   description: 'Workwear-inspired relaxed fit jeans with durable construction. These utilitarian jeans feature heavyweight denim, a comfortable mid-rise waist, relaxed fit through the leg, reinforced stitching, and the brand\'s signature square label for authentic workwear style.',
   details: {
@@ -1465,7 +1465,7 @@ const products = [
   image: 'https://d1pdzcnm6xgxlz.cloudfront.net/bottoms/8905875288848-9.jpg',
   category: 'jeans',
   inDemand: false,
-  soldCount: 0,
+  stock: 80,
   bestSeller: false,
   description: 'Modern interpretation of classic bootcut jeans. These Italian-designed jeans feature premium stretch denim, a mid-rise waist, regular fit through the thigh with a subtle flare from the knee down, and signature hardware for a contemporary take on a timeless silhouette.',
   details: {
@@ -1486,7 +1486,7 @@ const products = [
   image: 'https://www.fugazee.com/cdn/shop/files/1_b89bbb9c-83bd-4857-baea-b00cab858817.jpg?v=1734706548',
   category: 'jeans',
   inDemand: true,
-  soldCount: 48,
+  stock: 48,
   bestSeller: false,
   description: 'Australian-designed jeans with signature distressed details. These edgy jeans feature intentional rips at the knees, a slim fit throughout, premium denim construction, and the brand\'s distinctive cross embroidery on the back pocket for authentic street style.',
   details: {
@@ -1507,7 +1507,7 @@ const products = [
   image: 'https://luxire.in/cdn/shop/files/4_Japanese_Kaihara_Indigo_Selvedge_Jeans_5_1500x.jpg?v=1726916760',
   category: 'jeans',
   inDemand: true,
-  soldCount: 35,
+  stock: 35,
   bestSeller: false,
   description: 'Premium Japanese selvedge denim jeans with heritage craftsmanship. These authentic jeans feature fabric from renowned Japanese mills, classic five-pocket styling, signature rainbow selvedge ID, and a regular tapered fit that combines comfort with a modern silhouette.',
   details: {
@@ -1530,7 +1530,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAm8ot6ZZgzRFpdukmuIU6jEx3cvtPExWWBQ&s',
   category: 'sneakers',
   inDemand: true,
-  soldCount: 85,
+  stock: 85,
   bestSeller: true,
   description: 'Iconic minimalist leather sneakers handcrafted in Italy. These luxury sneakers feature premium Nappa leather, a clean silhouette with no visible branding, signature gold serial numbers at the heel, and durable Margom soles for understated elegance and exceptional quality.',
   details: {
@@ -1551,7 +1551,7 @@ const products = [
   image: 'https://i.shgcdn.com/8866d26e-214d-4c69-9d43-0ffdd14c597f/-/format/auto/-/preview/3000x3000/-/quality/lighter/',
   category: 'sneakers',
   inDemand: true,
-  soldCount: 110,
+  stock: 110,
   bestSeller: true,
   description: 'Heritage-inspired running sneakers with retro design. These comfortable shoes feature a suede and mesh upper, ENCAP midsole cushioning technology, a padded collar and tongue, and the brand\'s iconic N logo for authentic vintage athletic style.',
   details: {
@@ -1572,7 +1572,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOWZbSWGkH9yC1jKzo6N9FgYV6wH03usH3lA&s',
   category: 'sneakers',
   inDemand: false,
-  soldCount: 0,
+  stock: 90,
   bestSeller: false,
   description: 'Classic high-top canvas sneakers with timeless design. These iconic shoes feature a durable canvas upper, rubber toe cap, metal eyelets, cushioned footbed, and the brand\'s signature star ankle patch for authentic American casual style.',
   details: {
@@ -1593,7 +1593,7 @@ const products = [
   image: 'https://hips.hearstapps.com/hmg-prod/images/designer-sneakera-1471965974-658338c090aa0.jpg?crop=0.668xw:1.00xh;0.138xw,0&resize=1200:*',
   category: 'sneakers',
   inDemand: true,
-  soldCount: 42,
+  stock: 42,
   bestSeller: false,
   description: 'Statement designer sneakers with bold, exaggerated proportions. These high-fashion shoes feature a complex paneled construction, oversized silhouette, chunky sole unit, and subtle logo details for a contemporary luxury aesthetic that makes a strong style statement.',
   details: {
@@ -1614,7 +1614,7 @@ const products = [
   image: 'https://costosoitaliano.com/cdn/shop/files/sceinteis_SUEDE_COLOUR_SNEAKER_e088a8fc-482e-4520-9a8e-60c64dfa4f5d_580x.png?v=1736591111',
   category: 'sneakers',
   inDemand: true,
-  soldCount: 95,
+  stock: 95,
   bestSeller: false,
   description: 'Classic suede sneakers with retro tennis heritage. These versatile shoes feature a premium suede upper, leather three-stripe branding, cushioned EVA midsole, and the brand\'s signature trefoil logo on the heel tab for authentic sporty style.',
   details: {
@@ -1635,7 +1635,7 @@ const products = [
   image: 'https://static.nike.com/a/images/f_auto,cs_srgb/w_960,c_limit/23e95755-136e-4b97-b0d0-86123a665f1a/nike-flyknit.jpg',
   category: 'sneakers',
   inDemand: false,
-  soldCount: 0,
+  stock: 0,
   bestSeller: false,
   description: 'Innovative performance sneakers with seamless knit construction. These technical running shoes feature a breathable Flyknit upper, responsive React foam cushioning, strategic support zones, and a lightweight design for superior comfort and athletic performance.',
   details: {
@@ -1656,7 +1656,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/81A1pI32UfL._AC_UY1000_DpWeblab_.jpg',
   category: 'sneakers',
   inDemand: true,
-  soldCount: 78,
+  stock: 78,
   bestSeller: false,
   description: 'Classic slip-on sneakers with skateboarding heritage. These casual shoes feature a canvas upper, elastic side accents for easy on/off, padded collar, signature waffle outsole, and a simple silhouette for timeless California skate style.',
   details: {
@@ -1677,7 +1677,7 @@ const products = [
   image: 'https://costosoitaliano.com/cdn/shop/products/24720_men_rio-ii_black_p45_1024x1024@2x.jpg?v=1736601606',
   category: 'sneakers',
   inDemand: true,
-  soldCount: 32,
+  stock: 32,
   bestSeller: false,
   description: 'Handcrafted Italian leather sneakers with minimalist design. These premium shoes feature full-grain leather from Tuscany, hand-painted edges, waxed cotton laces, and Margom soles for exceptional quality and understated luxury with versatile style.',
   details: {
@@ -1698,7 +1698,7 @@ const products = [
   image: 'https://baccabucci.com/cdn/shop/products/MG_8831_6983b4ff-5d28-4d59-a03e-f55bce226ad7.jpg?v=1635422651',
   category: 'sneakers',
   inDemand: true,
-  soldCount: 55,
+  stock: 55,
   bestSeller: true,
   description: 'Luxury sneakers with signature exaggerated sole. These designer shoes feature premium leather construction, oversized rubber sole, padded collar, and subtle branding on the tongue and heel for a bold yet refined aesthetic that elevates casual outfits.',
   details: {
@@ -1719,7 +1719,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEUxOuJP5FbOE8boWaxaHgLKKMowB1NqEsWw&s',
   category: 'sneakers',
   inDemand: true,
-  soldCount: 68,
+  stock: 68,
   bestSeller: false,
   description: 'Eco-conscious sneakers made with sustainable materials. These ethical shoes feature organic cotton canvas, wild rubber from the Amazon, recycled polyester lining, and the brand\'s distinctive V logo for responsible style with French minimalist design.',
   details: {
@@ -1742,7 +1742,7 @@ const products = [
   image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/t/a/tag-heuer-carrera-cbn2a1aa-ba0643-multiple-2.jpg',
   category: 'watches',
   inDemand: true,
-  soldCount: 28,
+  stock: 28,
   bestSeller: true,
   description: 'Precision Swiss-made automatic chronograph watch with racing heritage. This sophisticated timepiece features a stainless steel case, sapphire crystal with anti-reflective coating, in-house movement with 80-hour power reserve, and water resistance to 100 meters.',
   details: {
@@ -1762,7 +1762,7 @@ const products = [
   image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/o/m/omega-seamaster-210-30-42-20-10-001-large.jpg',
   category: 'watches',
   inDemand: true,
-  soldCount: 15,
+  stock: 15,
   bestSeller: false,
   description: 'Professional dive watch with legendary underwater heritage. This high-performance timepiece features a unidirectional rotating bezel, helium escape valve, highly luminous dial and hands, co-axial master chronometer movement, and water resistance to 300 meters.',
   details: {
@@ -1782,7 +1782,7 @@ const products = [
   image: 'https://cdn4.ethoswatches.com/the-watch-guide/wp-content/uploads/2018/12/1200x900-2.jpg',
   category: 'watches',
   inDemand: false,
-  soldCount: 0,
+  stock: 70,
   bestSeller: false,
   description: 'Bauhaus-inspired minimalist watch with German design heritage. This elegant timepiece features a clean dial with slim markers, domed sapphire crystal, precision quartz movement, and a slim case profile for timeless sophistication with modernist principles.',
   details: {
@@ -1802,7 +1802,7 @@ const products = [
   image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/i/w/iwc-pilots-iw389101-large.jpg',
   category: 'watches',
   inDemand: true,
-  soldCount: 8,
+  stock: 8,
   bestSeller: false,
   description: 'Classic aviation-inspired pilot\'s watch with heritage design. This precision timepiece features a highly legible dial with luminous numerals and hands, in-house automatic movement with 7-day power reserve, soft-iron inner case for magnetic field protection, and vintage-inspired aesthetics.',
   details: {
@@ -1822,7 +1822,7 @@ const products = [
   image: 'https://img.jaeger-lecoultre.com/mega-menu-list-3/0a652a122ea0365fd7a0e11c5d4097c676a251ea.jpg',
   category: 'watches',
   inDemand: true,
-  soldCount: 5,
+  stock: 5,
   bestSeller: true,
   description: 'Ultra-thin dress watch with sophisticated elegance. This luxury timepiece features a hand-finished in-house movement, guilloché dial with applied hour markers, dauphine hands, sapphire crystal case back, and alligator leather strap for refined formal style.',
   details: {
@@ -1842,7 +1842,7 @@ const products = [
   image: 'https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/watch-card-40-ultra2-202409_GEO_IN_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1725113864345',
   category: 'watches',
   inDemand: false,
-  soldCount: 0,
+  stock: 10,
   bestSeller: false,
   description: 'Advanced smartwatch with comprehensive health and connectivity features. This high-tech timepiece features a Retina display, ECG and blood oxygen sensors, always-on altimeter, GPS, cellular connectivity, and a wide range of customizable faces and bands.',
   details: {
@@ -1863,7 +1863,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLsc4UJtLfRbiKkmvkiG7q1_G5Ua74aMNmlg&s',
   category: 'watches',
   inDemand: true,
-  soldCount: 22,
+  stock: 22,
   bestSeller: false,
   description: 'Military-inspired field watch with rugged functionality. This heritage timepiece features a highly legible dial with 24-hour markings, luminous hands and indices, scratch-resistant sapphire crystal, automatic movement with 80-hour power reserve, and water resistance to 100 meters.',
   details: {
@@ -1883,7 +1883,7 @@ const products = [
   image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/t/u/tudor-black-bay-m79210cnu-0001-multiple-6.jpg',
   category: 'watches',
   inDemand: true,
-  soldCount: 12,
+  stock: 12,
   bestSeller: false,
   description: 'Robust sports watch with vintage-inspired design elements. This precision timepiece features a unidirectional rotating ceramic bezel, domed sapphire crystal, in-house automatic movement with 70-hour power reserve, and water resistance to 200 meters for adventure-ready performance.',
   details: {
@@ -1903,7 +1903,7 @@ const products = [
   image: 'https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/z/e/zenith-defy-03-9300-3620-78-i001.jpg',
   category: 'watches',
   inDemand: true,
-  soldCount: 7,
+  stock: 7,
   bestSeller: false,
   description: 'Avant-garde skeleton dial watch showcasing horological artistry. This exceptional timepiece features an openworked dial revealing the high-frequency El Primero movement, chronograph functionality, sapphire crystal case back, and a sophisticated fusion of technical innovation and artistic design.',
   details: {
@@ -1923,7 +1923,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4OnP0wem69jvj0iI7l9y920z1BUdP4wzimw&s',
   category: 'watches',
   inDemand: true,
-  soldCount: 10,
+  stock: 10,
   bestSeller: true,
   description: 'Iconic dual time zone watch designed for global travelers. This prestigious timepiece features a bidirectional rotatable 24-hour bezel, additional GMT hand, superlative chronometer certified movement, and the brand\'s signature Oyster case with water resistance to 100 meters.',
   details: {
@@ -1945,7 +1945,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE75inCLzT6-P0GdRjXtmF9KdHqya03kaG2w&s',
   category: 'sunglasses',
   inDemand: true,
-  soldCount: 85,
+  stock: 85,
   bestSeller: true,
   description: 'Iconic aviator sunglasses with timeless design. These classic shades feature a lightweight metal frame, teardrop-shaped lenses, adjustable nose pads, and signature bayonet temples for the authentic aviator look that has defined cool for generations.',
   details: {
@@ -1966,7 +1966,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5107gU9yZlDA0ridBTNUwPZYmskkCiwWjCg&s',
   category: 'sunglasses',
   inDemand: true,
-  soldCount: 42,
+  stock: 42,
   bestSeller: false,
   description: 'Italian-crafted acetate sunglasses with vintage appeal. These sophisticated shades feature hand-finished acetate frames, crystal lenses, the brand\'s signature arrow hinges, and Supreme Arrow metal accents for timeless Mediterranean style.',
   details: {
@@ -1987,7 +1987,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI1Xu3CWIXWIGnB6J2q6mGV_3E7FZdKxdfhQ&s',
   category: 'sunglasses',
   inDemand: false,
-  soldCount: 0,
+  stock: 10,
   bestSeller: false,
   description: 'Refined round sunglasses with vintage-inspired design. These premium shades feature a lightweight titanium frame, mineral glass lenses, filigree detailing, adjustable nose pads, and subtle branding for sophisticated retro style with modern craftsmanship.',
   details: {
@@ -2007,7 +2007,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRznRoslIamDEWKK3_yOj6Ps-pLiL7GkISHaw&s',
   category: 'sunglasses',
   inDemand: true,
-  soldCount: 58,
+  stock: 58,
   bestSeller: false,
   description: 'High-performance polarized sunglasses with wayfarer-inspired shape. These premium shades feature the brand\'s patented PolarizedPlus2® lens technology that eliminates glare and enhances color, durable nylon frame, and spring hinges for comfort during active outdoor pursuits.',
   details: {
@@ -2027,7 +2027,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYtEUmrE-Ff7jnWGJ5RPJLZ0vN8D0IV-TR3w&s',
   category: 'sunglasses',
   inDemand: true,
-  soldCount: 35,
+  stock: 35,
   bestSeller: true,
   description: 'Statement oversized sunglasses with bold designer aesthetic. These luxury shades feature an acetate frame with exaggerated proportions, gradient lenses, signature web stripe detail on temples, and interlocking G logo for unmistakable brand identity.',
   details: {
@@ -2047,7 +2047,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCmQpp04JjqLTtFdmguLPEyrPq3DTweObECw&s',
   category: 'sunglasses',
   inDemand: false,
-  soldCount: 0,
+  stock: 30,
   bestSeller: false,
   description: 'Sophisticated square sunglasses with vintage-inspired design. These luxury shades feature a bold acetate frame, flat top silhouette, signature metal accents at temples, and minimalist branding for a timeless yet contemporary aesthetic.',
   details: {
@@ -2067,7 +2067,7 @@ const products = [
   image: 'https://d3995ea24pmi7m.cloudfront.net/media/catalog/product/o/k/ok9343934308_3_lar.jpg',
   category: 'sunglasses',
   inDemand: true,
-  soldCount: 72,
+  stock: 72,
   bestSeller: false,
   description: 'High-performance wrap sunglasses designed for athletic activities. These technical shades feature the brand\'s proprietary O Matter® frame material, Prizm™ lens technology for enhanced contrast, no-slip Unobtainium® nose pads and temple tips, and a semi-rimless design for unobstructed vision.',
   details: {
@@ -2087,7 +2087,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRqhiiEo46xd_OGrg1FXOnPUfL8NxJe47LOw&s',
   category: 'sunglasses',
   inDemand: true,
-  soldCount: 18,
+  stock: 18,
   bestSeller: false,
   description: 'Ultra-premium titanium sunglasses with exceptional craftsmanship. These luxury shades feature Japanese titanium construction, custom-engineered hinges, diamond-cut detailing, anti-reflective coated lenses, and hand-finished components for unparalleled quality and sophistication.',
   details: {
@@ -2107,7 +2107,7 @@ const products = [
   image: 'https://india.ray-ban.com/media/catalog/product//0/r/0rb44166013151_2.jpg',
   category: 'sunglasses',
   inDemand: true,
-  soldCount: 65,
+  stock: 65,
   bestSeller: false,
   description: 'Iconic browline sunglasses with retro appeal. These classic shades feature a combination of acetate and metal construction, distinctive browline design, crystal lenses, and adjustable nose pads for a sophisticated vintage aesthetic that never goes out of style.',
   details: {
@@ -2128,7 +2128,7 @@ const products = [
   image: 'https://assets2.persol.com/cdn-record-files-pi/4cd79376-6f4b-4754-95f8-a35e0060d1b5/dbe9dc93-b001-4cc4-ae86-aed800a8c3e9/0PO0714__24_S3__P21__shad__fldg.png?impolicy=HB_parameters&wid=400&cropnorth=-7&cropsouth=-8',
   category: 'sunglasses',
   inDemand: true,
-  soldCount: 28,
+  stock: 28,
   bestSeller: true,
   description: 'Premium foldable sunglasses with innovative design. These sophisticated shades feature a patented folding mechanism at bridge and temples, hand-crafted acetate frame, crystal lenses, signature arrow hinges, and compact folded size for convenient portability without sacrificing style.',
   details: {
@@ -2150,7 +2150,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/71-yoyiRlnL._AC_UY1100_.jpg',
   category: 'belts',
   inDemand: true,
-  soldCount: 45,
+  stock: 45,
   bestSeller: true,
   description: 'Versatile reversible belt crafted from premium leather. This luxury accessory features smooth calfskin on one side and textured leather on the reverse, the brand\'s iconic Gancini buckle in polished palladium, and a simple mechanism to switch between black and brown for maximum versatility.',
   details: {
@@ -2171,7 +2171,7 @@ const products = [
   image: 'https://m.media-amazon.com/images/I/514bshu6wXL._AC_UY1100_.jpg',
   category: 'belts',
   inDemand: true,
-  soldCount: 32,
+  stock: 32,
   bestSeller: false,
   description: 'Signature belt featuring the iconic Gancini buckle. This refined accessory is crafted from smooth calfskin leather with hand-painted edges, the brand\'s distinctive horseshoe-inspired buckle in polished gold finish, and impeccable Italian craftsmanship for enduring elegance.',
   details: {
@@ -2192,7 +2192,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW9b-HrCp7d4HxTjigmPL69vMKltfk3fjh9Q&s',
   category: 'belts',
   inDemand: false,
-  soldCount: 0,
+  stock: 0,
   bestSeller: false,
   description: 'Artisanal woven leather belt handcrafted in Italy. This sophisticated accessory features intricately woven leather strips, a brushed nickel buckle, leather keeper, and elasticated construction that provides subtle flexibility for exceptional comfort throughout the day.',
   details: {
@@ -2213,7 +2213,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlCOLkew3LvlCwyWHRBQMM441XBN7FI-9QKA&s',
   category: 'belts',
   inDemand: true,
-  soldCount: 38,
+  stock: 38,
   bestSeller: true,
   description: 'Iconic belt featuring the brand\'s signature interlocking G buckle. This luxury accessory is crafted from premium leather with a textured surface, antique-finish brass hardware, and the instantly recognizable double G motif for a timeless statement of designer style.',
   details: {
@@ -2234,7 +2234,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT70UiyTwdBDmufOS3U-FZjdDS_fXKktLVwJw&s',
   category: 'belts',
   inDemand: true,
-  soldCount: 22,
+  stock: 22,
   bestSeller: false,
   description: 'Luxurious suede belt with understated elegance. This refined accessory features soft Italian suede construction, a minimalist rectangular buckle in brushed palladium, hand-stitched detailing, and the brand\'s signature attention to quality for sophisticated casual style.',
   details: {
@@ -2255,7 +2255,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlB54aTUfhK5VXuMovn52xsU7LY78JMub0CQ&s',
   category: 'belts',
   inDemand: false,
-  soldCount: 0,
+  stock: 10,
   bestSeller: false,
   description: 'Sophisticated braided leather belt with Italian craftsmanship. This versatile accessory features hand-braided leather construction, a polished silver-tone buckle, leather keeper, and a slightly elastic quality that provides comfort while maintaining its shape.',
   details: {
@@ -2276,7 +2276,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0gQb8sRqjX5Cs-qZmE6jdW_DtVYb7IV_e-g&s',
   category: 'belts',
   inDemand: true,
-  soldCount: 55,
+  stock: 55,
   bestSeller: false,
   description: 'Preppy canvas web belt with signature styling. This casual accessory features a durable cotton webbing strap with leather trim, an antique-finish brass buckle with embossed logo, and adjustable sizing for a relaxed yet refined addition to weekend outfits.',
   details: {
@@ -2296,7 +2296,7 @@ const products = [
   image: 'https://assets.ajio.com/medias/sys_master/root/20230614/yxJX/6489a8c442f9e729d7410156/-1117Wx1400H-410385333-3172-MODEL.jpg',
   category: 'belts',
   inDemand: true,
-  soldCount: 18,
+  stock: 18,
   bestSeller: false,
   description: 'Sophisticated belt featuring the brand\'s signature intrecciato weave. This luxury accessory showcases the iconic hand-woven leather technique, a sleek rectangular buckle in brushed palladium, and impeccable Italian craftsmanship for subtle yet distinctive style.',
   details: {
@@ -2317,7 +2317,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2sSggyt9JdYN6gg2XRGeuGaguKViAotF4oA&s',
   category: 'belts',
   inDemand: true,
-  soldCount: 48,
+  stock: 48,
   bestSeller: false,
   description: 'Refined slim belt designed for formal wear. This elegant accessory features smooth leather construction, a sleek rectangular buckle with subtle logo detail, hand-finished edges, and a narrow width that pairs perfectly with tailored trousers and suits.',
   details: {
@@ -2338,7 +2338,7 @@ const products = [
   image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI6WdNTuE_FEoJ856_yhPhIOY5W0EToQwoUw&s',
   category: 'belts',
   inDemand: true,
-  soldCount: 32,
+  stock: 32,
   bestSeller: true,
   description: 'Iconic belt featuring the brand\'s signature double G buckle. This statement accessory is crafted from premium grained leather, showcases the instantly recognizable interlocking G motif in antique brass finish, and represents a timeless symbol of luxury fashion.',
   details: {
